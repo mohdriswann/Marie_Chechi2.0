@@ -18,7 +18,7 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-നമസ്‌കാരം{}, എന്റെ പേര് {}! ൻ ഒരു അടിപൊളി ഗ്രൂപ് മാനേജിങ് ബോട്ട് ആണ്.
+നമസ്‌കാരം{}, എന്റെ പേര് {}! ഞാൻ ഒരു അടിപൊളി ഗ്രൂപ് മാനേജിങ് ബോട്ട് ആണ്.
 പക്ഷെ എന്നെ MOVIE HEIST ഗ്രൂപ്പിൽ മാത്രമേ ഉപയോഗിക്കാൻ പറ്റു.
 
 Credit: [Mr_WhIzOnE](tg://user?id={}) 
