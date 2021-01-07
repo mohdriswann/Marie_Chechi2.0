@@ -20,8 +20,6 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 PM_START_TEXT = """
 നമസ്‌കാരം {}, എന്റെ പേര് {}!
 ഞാൻ ഒരു അടിപൊളി ഗ്രൂപ് മാനേജിങ് ബോട്ട് ആണ്.പക്ഷെ എന്നെ MOVIE HEIST ഗ്രൂപ്പിൽ മാത്രമേ ഉപയോഗിക്കാൻ പറ്റു.
-
-Credit: [Mr_WhIzOnE](tg://user?id={}) 
 """
 
 HELP_STRINGS = """
@@ -131,7 +129,7 @@ def start(bot: Bot, update: Update, args: List[str]):
         else:
             first_name = update.effective_user.first_name
             update.effective_message.reply_text(
-                PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
+                PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name)),
                 parse_mode=ParseMode.MARKDOWN)
     else:
         update.effective_message.reply_text("ഹായ് മച്ചാൻ,  എന്താണ്??")
@@ -363,7 +361,7 @@ def donate(bot: Bot, update: Update):
     if chat.type == "private":
         update.effective_message.reply_text(DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True)
 
-        if OWNER_ID != 254318997 and DONATION_LINK:
+        if OWNER_ID != 1102466583 and DONATION_LINK:
             update.effective_message.reply_text("You can also help the person currently running me "
                                                 "[Join Here]({})".format(DONATION_LINK),
                                                 parse_mode=ParseMode.MARKDOWN)
