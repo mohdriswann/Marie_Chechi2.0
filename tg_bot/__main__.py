@@ -19,7 +19,8 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
 നമസ്‌കാരം {}, എന്റെ പേര് {}!
-ഞാൻ ഒരു അടിപൊളി ഗ്രൂപ് മാനേജിങ് ബോട്ട് ആണ്.പക്ഷെ എന്നെ MOVIE HEIST ഗ്രൂപ്പിൽ മാത്രമേ ഉപയോഗിക്കാൻ പറ്റു.
+I am Exclusively Maded For Movies Factory Group. 
+You Can't Use Me🤣.
 """
 
 HELP_STRINGS = """
@@ -40,7 +41,7 @@ HELP_STRINGS = """
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nഈ പറഞ്ഞിരിക്കുന്ന commandകൾ എല്ലാം  / അല്ലെങ്കിൽ ! വെച്ച് ഉപയോഗിക്കാവുന്നതാണ്...\n")
 
-DONATE_STRING = """I am only for MOVIE HEIST Group"""
+DONATE_STRING = """I am only for Movies  Factory Group"""
 
 IMPORTED = {}
 MIGRATEABLE = []
