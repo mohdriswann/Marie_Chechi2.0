@@ -18,8 +18,8 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-I am a Special Group Manager Bot.
-But, I am Exclusively Maded For Movies Factory Group. 
+
+I am Exclusively Maded For Movies Factory Group. 
 You Can't Use Me🤣.
 """
 
